@@ -41,6 +41,16 @@ function SignupForm({ compact = false }) {
     }
   }
 
+  if (status === 'success') {
+    return <div className={compact ? 'signup compact' : 'signup'}>
+      <div className="signup-success" role="status" aria-live="polite">
+        <span>YOU’RE IN</span>
+        <strong>Thank you — you’re subscribed.</strong>
+        <p>Your first edition will arrive at 08:00 in {timezone}. No further confirmation is needed.</p>
+      </div>
+    </div>;
+  }
+
   return <div className={compact ? 'signup compact' : 'signup'}>
     <form onSubmit={subscribe}>
       <label className="sr-only" htmlFor={compact ? 'footer-email' : 'hero-email'}>Email address</label>
