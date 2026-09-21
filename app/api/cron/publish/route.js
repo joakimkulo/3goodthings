@@ -45,11 +45,12 @@ export async function GET(request) {
   const scheduledEditionDate = new Intl.DateTimeFormat('en-CA', {
     timeZone: 'Europe/Stockholm', year: 'numeric', month: '2-digit', day: '2-digit'
   }).format(new Date(scheduledAt));
-  if (edition.editionDate !== scheduledEditionDate) {
+  if (edition.readyForSend !== true || edition.editionDate !== scheduledEditionDate) {
     return NextResponse.json({
       error: 'Edition is not ready for today.',
       expectedEditionDate: scheduledEditionDate,
-      actualEditionDate: edition.editionDate
+      actualEditionDate: edition.editionDate,
+      readyForSend: edition.readyForSend === true
     }, { status: 409 });
   }
   const response = await fetch(`https://api.beehiiv.com/v2/publications/${publicationId}/posts`, {
