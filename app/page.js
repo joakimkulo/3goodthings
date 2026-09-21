@@ -34,7 +34,7 @@ function SignupForm({ compact = false }) {
       if (!response.ok) throw new Error(data.error || 'Something went wrong.');
       form.reset();
       setStatus('success');
-      setMessage(`Thank you — you’re subscribed! ${data.message} Delivery is set for 08:00 in ${timezone}.`);
+      setMessage(`Almost done — check your inbox and click “Confirm Subscription” once. After that, you’re subscribed. Delivery is set for 08:00 in ${timezone}.`);
     } catch (error) {
       setStatus('error');
       setMessage(error.message);
