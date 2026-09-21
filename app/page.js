@@ -16,7 +16,8 @@ function SignupForm({ compact = false }) {
 
   async function subscribe(event) {
     event.preventDefault();
-    const email = new FormData(event.currentTarget).get('email');
+    const form = event.currentTarget;
+    const email = new FormData(form).get('email');
     setStatus('loading');
     setMessage('');
     try {
@@ -31,9 +32,9 @@ function SignupForm({ compact = false }) {
       });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error || 'Something went wrong.');
+      form.reset();
       setStatus('success');
-      setMessage(`${data.message} Delivery is set for 08:00 in ${timezone}.`);
-      event.currentTarget.reset();
+      setMessage(`Thank you — you’re subscribed! ${data.message} Delivery is set for 08:00 in ${timezone}.`);
     } catch (error) {
       setStatus('error');
       setMessage(error.message);
