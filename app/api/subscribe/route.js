@@ -23,8 +23,8 @@ export async function POST(request) {
       body: JSON.stringify({
         email: normalizedEmail,
         reactivate_existing: true,
-        send_welcome_email: true,
-        double_opt_override: 'on',
+        send_welcome_email: false,
+        double_opt_override: 'off',
         utm_source: '3goodthings-website',
         utm_medium: 'organic',
         custom_fields: [
@@ -42,7 +42,7 @@ export async function POST(request) {
       return NextResponse.json({ error: response.status === 429 ? 'Too many attempts. Please wait a moment.' : 'We could not add you right now. Please try again.' }, { status: response.status === 429 ? 429 : 502 });
     }
 
-    return NextResponse.json({ message: 'You’re almost in — check your inbox to confirm.' });
+    return NextResponse.json({ message: 'You’re subscribed.' });
   } catch {
     return NextResponse.json({ error: 'We could not add you right now. Please try again.' }, { status: 500 });
   }
