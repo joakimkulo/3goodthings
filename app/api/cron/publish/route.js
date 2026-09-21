@@ -69,7 +69,7 @@ export async function GET(request) {
         display_title_in_email: true,
         display_subtitle_in_email: true
       },
-      web_settings: { hide_from_feed: true },
+      web_settings: { hide_from_feed: false },
       utm_source: '3goodthings',
       utm_medium: 'email',
       utm_campaign: edition.editionDate
