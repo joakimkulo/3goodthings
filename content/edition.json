@@ -1,0 +1,36 @@
+{
+  "editionDate": "2026-09-22",
+  "label": "PILOT EDITION",
+  "number": "No. 001",
+  "title": "Three things worth knowing",
+  "subtitle": "Verified progress in health, nature and society.",
+  "stories": [
+    {
+      "cat": "HEALTH",
+      "date": "Verified briefing",
+      "title": "Malaria vaccines are reaching routine childhood programmes across Africa",
+      "text": "Two WHO-recommended vaccines are now being introduced through national immunisation programmes, adding a new layer of protection alongside nets, medicines and testing.",
+      "why": "WHO expects vaccination in Africa to save tens of thousands of young lives every year.",
+      "source": "World Health Organization · updated 4 Dec 2025 · link checked 21 Sep 2026",
+      "href": "https://www.who.int/news-room/fact-sheets/detail/malaria"
+    },
+    {
+      "cat": "NATURE",
+      "date": "Verified briefing",
+      "title": "The Iberian lynx has moved back from the brink",
+      "text": "After two decades of conservation, the wild population grew from just 62 mature animals in 2001 to more than 2,000 lynx in Spain and Portugal in 2023.",
+      "why": "The species was reclassified from Endangered to Vulnerable — proof that long-term habitat and breeding work can reverse decline.",
+      "source": "Reuters, reporting the IUCN assessment · 20 Jun 2024 · link checked 21 Sep 2026",
+      "href": "https://www.reuters.com/science/european-lynx-species-rebounds-brink-extinction-2024-06-20/"
+    },
+    {
+      "cat": "SOCIETY",
+      "date": "Verified briefing",
+      "title": "Far fewer children die before their fifth birthday than a generation ago",
+      "text": "The global under-five mortality rate has fallen by more than half since 2000, driven by vaccines, nutrition, safer births and treatment for preventable disease.",
+      "why": "Millions more children now survive their earliest years, even as progress remains uneven and needs protecting.",
+      "source": "UNICEF Data · link checked 21 Sep 2026",
+      "href": "https://data.unicef.org/topic/child-survival/under-five-mortality/"
+    }
+  ]
+}
