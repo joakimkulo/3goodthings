@@ -28,7 +28,7 @@ export default async function ArchivedEdition({ params }) {
   if (!edition) notFound();
 
   return <main>
-    <header>
+    <header id="top">
       <a className="brand-wrap" href="/" aria-label="3 Good Things home"><span className="brand">3 Good Things</span><span className="tag">Real progress. Every morning.</span></a>
       <nav aria-label="Main navigation"><a href="/">Today</a><a href="/archive">Archive</a><a className="button" href="/#subscribe">Subscribe</a></nav>
     </header>
