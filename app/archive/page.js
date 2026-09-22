@@ -6,9 +6,28 @@ function displayDate(value) {
   }).format(new Date(`${value}T12:00:00Z`));
 }
 
+const archiveTitle = 'Archive — 3 Good Things';
+const archiveDescription = 'Previous editions of 3 Good Things: verified progress worth knowing.';
+const archiveImage = `/api/og?date=${encodeURIComponent(archive.editions[0].editionDate)}&story=1`;
+
 export const metadata = {
-  title: 'Archive — 3 Good Things',
-  description: 'Previous editions of 3 Good Things: verified progress worth knowing.'
+  title: archiveTitle,
+  description: archiveDescription,
+  alternates: { canonical: '/archive' },
+  openGraph: {
+    title: archiveTitle,
+    description: archiveDescription,
+    url: '/archive',
+    siteName: '3 Good Things',
+    type: 'website',
+    images: [{ url: archiveImage, width: 1200, height: 630, alt: '3 Good Things archive' }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: archiveTitle,
+    description: archiveDescription,
+    images: [archiveImage]
+  }
 };
 
 export default function ArchivePage() {
