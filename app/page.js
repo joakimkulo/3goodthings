@@ -71,6 +71,7 @@ function SignupForm({ compact = false }) {
   </div>;
 }
 
+// Social share controls use icons; accessible names remain available to assistive technology.
 function ShareButtons({ story, index }) {
   const [copied, setCopied] = useState(false);
 
