@@ -2,15 +2,17 @@
 
 import { useState } from 'react';
 
+const SITE_URL = 'https://3goodthings.news';
+
 export default function SocialShare({ story, index, editionDate }) {
   const [feedback, setFeedback] = useState('');
 
   function storyUrl() {
-    return `${window.location.origin}/archive/${editionDate}?story=${index + 1}#story-${index + 1}`;
+    return `${SITE_URL}/archive/${editionDate}?story=${index + 1}#story-${index + 1}`;
   }
 
   function imageUrl() {
-    return `/api/og?date=${encodeURIComponent(editionDate)}&story=${index + 1}`;
+    return `${SITE_URL}/api/og?date=${encodeURIComponent(editionDate)}&story=${index + 1}`;
   }
 
   function openShareWindow(url) {
