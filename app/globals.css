@@ -19,3 +19,13 @@
 .back-to-top:hover b,.back-to-top:focus-visible b{transform:translateY(-4px)}
 .back-to-top:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.back-to-top b{transition:none}}
+
+/* Story sharing */
+.share-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px;font-family:Arial,sans-serif}
+.share-row>span{margin-right:auto;font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.share-row button{min-width:0;padding:8px 10px;border:1px solid var(--line);background:transparent;color:var(--ink);font-size:.72rem;line-height:1;transition:background .15s ease,color .15s ease,border-color .15s ease}
+.share-row button:hover,.share-row button:focus-visible{background:var(--ink);color:#fff;border-color:var(--ink)}
+.share-row button:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.grid article[id]{scroll-margin-top:24px}
+@media(max-width:780px){.share-row{gap:7px}.share-row>span{width:100%;margin:0 0 3px}.share-row button{flex:1;padding:11px 8px}}
+@media(prefers-reduced-motion:reduce){.share-row button{transition:none}}
