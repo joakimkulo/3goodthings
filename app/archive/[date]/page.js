@@ -10,9 +10,24 @@ export async function generateMetadata({ params }) {
   const { date } = await params;
   const edition = archive.editions.find((item) => item.editionDate === date);
   if (!edition) return {};
+  const title = `${edition.title} — 3 Good Things`;
+  const image = `/archive/${date}/opengraph-image`;
   return {
-    title: `${edition.title} — 3 Good Things`,
-    description: edition.subtitle
+    title,
+    description: edition.subtitle,
+    openGraph: {
+      title,
+      description: edition.subtitle,
+      type: 'article',
+      publishedTime: `${edition.editionDate}T06:00:00+02:00`,
+      images: [{ url: image, width: 1200, height: 630, alt: `3 Good Things — ${edition.editionDate}` }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description: edition.subtitle,
+      images: [image]
+    }
   };
 }
 
