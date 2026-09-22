@@ -66,3 +66,16 @@
   .archive-back{margin-bottom:38px}
 }
 @media(prefers-reduced-motion:reduce){.archive-arrow,.archive-cta b{transition:none}}
+
+/* Platform-appropriate sharing */
+.mobile-share-row{display:none}
+.share-row button span{font:700 .68rem/1 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.share-row .instagram-download{display:flex;width:auto;padding:8px 12px;border-radius:999px;gap:7px}
+.share-row .native-share-button{display:flex;width:auto;height:42px;padding:10px 16px;border-radius:999px;gap:8px;background:var(--ink);color:#fff;border-color:var(--ink)}
+.share-row .native-share-button svg{width:19px;height:19px}
+@media (max-width:900px), (pointer:coarse){
+  .desktop-share-row{display:none}
+  .mobile-share-row{display:flex}
+  .mobile-share-row .native-share-button{flex:1}
+  .mobile-share-row>button:last-child{flex:0 0 42px}
+}
