@@ -70,7 +70,6 @@
 /* Platform-appropriate sharing */
 .mobile-share-row{display:none}
 .share-row button span{font:700 .68rem/1 Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase}
-.share-row .instagram-download{display:flex;width:auto;padding:8px 12px;border-radius:999px;gap:7px}
 .share-row .native-share-button{display:flex;width:auto;height:42px;padding:10px 16px;border-radius:999px;gap:8px;background:var(--ink);color:#fff;border-color:var(--ink)}
 .share-row .native-share-button svg{width:19px;height:19px}
 @media (max-width:900px), (pointer:coarse){
