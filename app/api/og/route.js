@@ -41,7 +41,7 @@ export async function GET(request) {
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontFamily: 'sans-serif', fontSize: 20 }}>
           <span style={{ display: 'flex' }}>Verified progress, without the sugar coating.</span>
-          <span style={{ display: 'flex', fontWeight: 700 }}>3goodthings.vercel.app</span>
+          <span style={{ display: 'flex', fontWeight: 700 }}>3goodthings.news</span>
         </div>
       </div>
     </div>,
