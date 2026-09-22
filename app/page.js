@@ -71,6 +71,55 @@ function SignupForm({ compact = false }) {
   </div>;
 }
 
+function ShareButtons({ story, index }) {
+  const [copied, setCopied] = useState(false);
+
+  function storyUrl() {
+    return `${window.location.origin}${window.location.pathname}#story-${index + 1}`;
+  }
+
+  function openShareWindow(url) {
+    window.open(url, '_blank', 'noopener,noreferrer,width=720,height=620');
+  }
+
+  function shareFacebook() {
+    openShareWindow(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(storyUrl())}`);
+  }
+
+  function shareLinkedIn() {
+    openShareWindow(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(storyUrl())}`);
+  }
+
+  async function shareInstagram() {
+    const url = storyUrl();
+    const shareData = { title: story.title, text: story.text, url };
+
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') return;
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(`${story.title}\n${url}`);
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2200);
+    } catch {
+      setCopied(false);
+    }
+  }
+
+  return <div className="share-row" aria-label={`Share ${story.title}`}>
+    <span>Share</span>
+    <button type="button" onClick={shareFacebook} aria-label="Share this story on Facebook">Facebook</button>
+    <button type="button" onClick={shareLinkedIn} aria-label="Share this story on LinkedIn">LinkedIn</button>
+    <button type="button" onClick={shareInstagram} aria-label="Share this story using Instagram or your phone’s share menu">{copied ? 'Link copied' : 'Instagram'}</button>
+  </div>;
+}
+
 function DeliveryClock() {
   const [label, setLabel] = useState('08:00 local time');
   useEffect(() => {
@@ -111,13 +160,14 @@ export default function Home() {
 
     <section className="today" id="stories">
       <div className="sectionhead"><div><span className="kicker">{editionReady ? edition.label : 'TODAY’S EDITION'}</span><h2>{editionReady ? edition.title : 'Being carefully verified'}</h2></div>{editionReady && <span className="edition">{edition.number}</span>}</div>
-      {editionReady ? <div className="grid">{stories.map((story, index) => <article key={story.cat}>
+      {editionReady ? <div className="grid">{stories.map((story, index) => <article id={`story-${index + 1}`} key={story.cat}>
         <div className={`story-mark mark-${index}`} aria-hidden="true"><span>0{index + 1}</span></div>
         <div className="meta"><span className="cat">{story.cat}</span><span>{story.date}</span></div>
         <h3>{story.title}</h3>
         <p>{story.text}</p>
         <p className="why"><b>Why it matters</b>{story.why}</p>
         <a className="source" href={story.href} target="_blank" rel="noreferrer"><span>Source</span>{story.source} ↗</a>
+        <ShareButtons story={story} index={index} />
       </article>)}</div> : <div className="edition-pending" role="status">
         <span>CHECKING THE FACTS</span>
         <p>Today’s edition is still being verified. Please check back shortly.</p>
