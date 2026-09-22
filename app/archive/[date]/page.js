@@ -19,13 +19,17 @@ export async function generateMetadata({ params, searchParams }) {
   const image = story
     ? `/api/og?date=${encodeURIComponent(date)}&story=${storyIndex + 1}`
     : `/archive/${date}/opengraph-image`;
+  const canonicalPath = story ? `/archive/${date}?story=${storyIndex + 1}` : `/archive/${date}`;
 
   return {
+    alternates: { canonical: canonicalPath },
     title,
     description,
     openGraph: {
       title,
       description,
+      url: canonicalPath,
+      siteName: '3 Good Things',
       type: 'article',
       publishedTime: `${edition.editionDate}T06:00:00+02:00`,
       images: [{ url: image, width: 1200, height: 630, alt: story ? story.title : `3 Good Things — ${edition.editionDate}` }]
