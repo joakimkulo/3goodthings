@@ -6,7 +6,7 @@ export default function SocialShare({ story, index, editionDate }) {
   const [copied, setCopied] = useState(false);
 
   function storyUrl() {
-    return `${window.location.origin}/archive/${editionDate}#story-${index + 1}`;
+    return `${window.location.origin}/archive/${editionDate}?story=${index + 1}#story-${index + 1}`;
   }
 
   function openShareWindow(url) {
