@@ -21,8 +21,10 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.back-to-top b{transition:none}}
 
 /* Story sharing */
-.share-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px;font-family:Arial,sans-serif}
+.share-block{margin-top:14px}
+.share-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:Arial,sans-serif}
 .share-row>span{margin-right:auto;font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.share-feedback{min-height:2em;margin:7px 0 0!important;color:#5d5d59;font:400 .7rem/1.35 Arial,sans-serif}
 .share-row button{display:grid;place-items:center;width:36px;height:36px;min-width:0;padding:8px;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--ink);line-height:1;transition:background .15s ease,color .15s ease,border-color .15s ease}
 .share-row button svg{width:18px;height:18px;fill:currentColor}
 .share-row button:hover,.share-row button:focus-visible{background:var(--ink);color:#fff;border-color:var(--ink)}
