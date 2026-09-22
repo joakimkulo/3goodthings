@@ -6,26 +6,34 @@ export function generateStaticParams() {
   return archive.editions.map((edition) => ({ date: edition.editionDate }));
 }
 
-export async function generateMetadata({ params }) {
+export async function generateMetadata({ params, searchParams }) {
   const { date } = await params;
+  const query = await searchParams;
   const edition = archive.editions.find((item) => item.editionDate === date);
   if (!edition) return {};
-  const title = `${edition.title} — 3 Good Things`;
-  const image = `/archive/${date}/opengraph-image`;
+
+  const storyIndex = Number.parseInt(query?.story, 10) - 1;
+  const story = Number.isInteger(storyIndex) ? edition.stories[storyIndex] : null;
+  const title = story ? `${story.title} — 3 Good Things` : `${edition.title} — 3 Good Things`;
+  const description = story ? story.text : edition.subtitle;
+  const image = story
+    ? `/api/og?date=${encodeURIComponent(date)}&story=${storyIndex + 1}`
+    : `/archive/${date}/opengraph-image`;
+
   return {
     title,
-    description: edition.subtitle,
+    description,
     openGraph: {
       title,
-      description: edition.subtitle,
+      description,
       type: 'article',
       publishedTime: `${edition.editionDate}T06:00:00+02:00`,
-      images: [{ url: image, width: 1200, height: 630, alt: `3 Good Things — ${edition.editionDate}` }]
+      images: [{ url: image, width: 1200, height: 630, alt: story ? story.title : `3 Good Things — ${edition.editionDate}` }]
     },
     twitter: {
       card: 'summary_large_image',
       title,
-      description: edition.subtitle,
+      description,
       images: [image]
     }
   };
