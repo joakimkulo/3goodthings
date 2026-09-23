@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import edition from '../../../../content/edition.json';
 import { nextEightUtc } from '../../../../lib/delivery-time.js';
 
+const SITE_URL = 'https://3goodthings.news';
+
 function escapeHtml(value) {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -9,6 +11,35 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#039;');
+}
+
+function storyUrl(index) {
+  return `${SITE_URL}/archive/${edition.editionDate}?story=${index + 1}#story-${index + 1}`;
+}
+
+function shareButton(href, label, text) {
+  return `<td style="padding:0 5px 0 0">
+    <a href="${escapeHtml(href)}" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}" style="display:inline-block;min-width:34px;height:34px;padding:0 8px;border:1px solid #aaa9a3;border-radius:18px;color:#0b0c0f;font:700 14px/34px Arial,sans-serif;text-align:center;text-decoration:none;box-sizing:border-box">${text}</a>
+  </td>`;
+}
+
+function shareRow(story, index) {
+  const url = storyUrl(index);
+  const encodedUrl = encodeURIComponent(url);
+  const encodedTitle = encodeURIComponent(story.title);
+  const facebook = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+  const linkedIn = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+  const x = `https://x.com/intent/post?text=${encodedTitle}&url=${encodedUrl}`;
+
+  return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:18px 0 0">
+    <tr>
+      <td style="padding:0 12px 0 0;font:700 11px/34px Arial,sans-serif;letter-spacing:1.5px;text-transform:uppercase">Share</td>
+      ${shareButton(facebook, 'Share this story on Facebook', 'f')}
+      ${shareButton(linkedIn, 'Share this story on LinkedIn', 'in')}
+      ${shareButton(x, 'Share this story on X', 'X')}
+      ${shareButton(url, 'Open this story for more sharing options', '+')}
+    </tr>
+  </table>`;
 }
 
 function editionHtml() {
@@ -19,6 +50,7 @@ function editionHtml() {
       <p style="font:17px Georgia,serif;line-height:1.55">${escapeHtml(story.text)}</p>
       <p style="font:17px Georgia,serif;line-height:1.55"><strong>Why it matters:</strong> ${escapeHtml(story.why)}</p>
       <p><a href="${escapeHtml(story.href)}" style="color:#0b0c0f;font-weight:bold">Source: ${escapeHtml(story.source)}</a></p>
+      ${shareRow(story, index)}
     </div>`).join('');
 
   return `<div style="max-width:640px;margin:auto;color:#0b0c0f;background:#f8f7f3;padding:32px">
