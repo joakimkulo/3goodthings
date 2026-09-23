@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-22",
+  "editionDate": "2026-09-23",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 002",
+  "number": "No. 003",
   "title": "Three things worth knowing",
-  "subtitle": "Preclinical lung imaging, clean-energy access in Nigeria and renewed Amazon restoration.",
+  "subtitle": "Promising diabetes trial results, a new limit for complex life and lower trade barriers between the EU and the Philippines.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "16 Sep 2026",
-      "title": "An experimental MRI agent found 1-millimetre lung tumours in animals",
-      "text": "A protein-based contrast agent called hProCA32.Collagen2 identified lung tumours and metastases as small as 1 millimetre in animal studies, while mapping collagen associated with aggressive disease.",
-      "why": "Earlier, radiation-free imaging could widen treatment options, but this is preclinical evidence and the agent still needs to prove safe and effective in people.",
-      "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/health-rounds-new-dye-mri-exams-detects-lung-cancer-earlier-2026-09-16/",
-      "source": "Reuters, reporting a Science Advances study · 16 Sep 2026"
+      "date": "22 Sep 2026",
+      "title": "An experimental diabetes drug delivered strong blood-sugar and weight results",
+      "text": "In a 447-person Phase II trial, the highest dose of Roche’s once-weekly enicepatide lowered average HbA1c by 2.65 percentage points and body weight by 15.5% after 48 weeks. Sixty-two percent of participants at that dose reached blood-sugar levels below the diabetes range.",
+      "why": "The results point to another potentially effective option for people living with type 2 diabetes and obesity. The figures are company-reported topline data, however, and the drug still needs larger late-stage trials to confirm long-term benefits and safety.",
+      "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/roches-obesity-drug-boosts-blood-sugar-control-drives-155-weight-loss-mid-stage-2026-09-22/",
+      "source": "Reuters · 22 Sep 2026"
     },
     {
-      "cat": "ENERGY",
-      "date": "20 Sep 2026",
-      "title": "A $300 million fund is moving Nigerian off-grid power into deployment",
-      "text": "The Nigeria Distributed Renewable Energy Fund has commercially launched to finance mini-grids, standalone solar and other distributed power. The World Bank says its initial IDA contribution is $25 million.",
-      "why": "Dedicated capital can help electricity reach underserved communities, although the real impact will depend on which projects are financed and how many connections are delivered.",
-      "href": "https://www.africa50.com/media/news/article/nigeria-dre-fund-reaches-commercial-launch-milestone-a-model-for-scaling-dre-investment-across-africa/",
-      "source": "Africa50, with NSIA, SEforALL and World Bank Group · 20 Sep 2026"
+      "cat": "SCIENCE",
+      "date": "22 Sep 2026",
+      "title": "A newly described amoeba has raised the heat limit for complex life",
+      "text": "Scientists found that Incendiamoeba cascadensis can reproduce at 63°C, three degrees above the previous known upper limit for eukaryotes, and remain active at 64°C. It also recovered after five minutes at 70°C.",
+      "why": "The discovery expands what scientists know about where complex cells can survive and may inform biotechnology and the search for life beyond Earth. It does not show that similar life exists elsewhere, and the amoeba still depends on a very specific ecosystem.",
+      "href": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/",
+      "source": "NASA Science · 22 Sep 2026"
     },
     {
-      "cat": "NATURE",
-      "date": "21 Sep 2026",
-      "title": "New finance could extend an Amazon restoration effort that has planted nearly 15 million trees",
-      "text": "Mombak secured the first close of a second reforestation fund targeting $150 million, plus access to a 200-million-real credit line. Its first fund financed restoration across 15 Amazon farms where nearly 15 million native trees were planted.",
-      "why": "More finance can restore additional degraded land, but the new fund has not reached its final close and carbon removals should complement—not replace—direct emissions cuts.",
-      "href": "https://www.reuters.com/sustainability/climate-energy/brazils-mombak-raises-new-fund-adds-salesforce-carbon-credit-buyer-2026-09-21/",
-      "source": "Reuters · 21 Sep 2026"
+      "cat": "ECONOMY",
+      "date": "22 Sep 2026",
+      "title": "The EU and the Philippines reached an initial deal to remove most tariffs",
+      "text": "The two sides politically approved the key terms of a trade agreement that would eliminate tariffs on more than 94% of goods. Their existing bilateral trade totals €17.6 billion in goods and €10.3 billion in services.",
+      "why": "Lower barriers could expand trade, investment and market access across both economies. The agreement is not yet final: its terms must still be turned into legal text and complete the required approval processes.",
+      "href": "https://www.reuters.com/world/asia-pacific/eu-philippines-agree-free-trade-deal-2026-09-22/",
+      "source": "Reuters · 22 Sep 2026"
     }
   ]
 }
