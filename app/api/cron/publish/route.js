@@ -30,6 +30,7 @@ function shareRow(story, index) {
   const facebook = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
   const linkedIn = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
   const x = `https://x.com/intent/post?text=${encodedTitle}&url=${encodedUrl}`;
+  const email = `mailto:?subject=${encodeURIComponent(story.title)}&body=${encodeURIComponent(`${story.title}\n\n${url}\n\nFrom 3 Good Things — three sourced stories every morning.`)}`;
 
   return `<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:18px 0 0">
     <tr>
@@ -39,7 +40,8 @@ function shareRow(story, index) {
       ${shareButton(x, 'Share this story on X', 'X')}
       ${shareButton(url, 'Open this story for more sharing options', '+')}
     </tr>
-  </table>`;
+  </table>
+  <p style="margin:8px 0 0;font:14px/1.5 Arial,sans-serif;color:#414345">Know someone who would appreciate this story? <a href="${escapeHtml(email)}" style="color:#0b0c0f;text-decoration:underline">Email it to them</a>.</p>`;
 }
 
 function editionHtml() {
@@ -57,6 +59,7 @@ function editionHtml() {
     <p style="margin:0 0 8px;font:12px Arial,sans-serif;letter-spacing:2px">3 GOOD THINGS</p>
     <h1 style="margin:0;font:400 42px Georgia,serif">${escapeHtml(edition.title)}</h1>
     <p style="font:18px Georgia,serif;line-height:1.5">${escapeHtml(edition.subtitle)}</p>
+    <p style="font:14px/1.5 Arial,sans-serif;color:#414345">One story worth passing on? Share or email it directly below the story.</p>
     ${stories}
   </div>`;
 }
