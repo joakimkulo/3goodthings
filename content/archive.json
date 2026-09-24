@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-09-24",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 004",
+      "title": "Three things worth knowing",
+      "subtitle": "Real-world lessons for incisionless cancer care, a second Sihek release and $115 million returning to delivery workers.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "23 Sep 2026",
+          "title": "An incisionless liver-tumour treatment showed low procedural toxicity in real-world use",
+          "text": "A review of 972 US patients treated with histotripsy found that 88.4% went home the same day, while acute kidney injury occurred in 1.2%, readmission in 0.9% and emergency visits in 0.4%. The outpatient procedure uses focused sound waves rather than an incision to destroy tumour tissue.",
+          "why": "The results suggest this newer treatment can often be delivered with few immediate procedural complications. The study was retrospective and could not assess tumour control or causation; 11.1% of patients died within 30 days, underscoring the need for better patient selection and prospective evidence.",
+          "href": "https://www.uvahealth.com/news/real-world-results-in-for-new-incisionless-liver-cancer-treatment",
+          "source": "UVA Health · 23 Sep 2026"
+        },
+        {
+          "cat": "NATURE",
+          "date": "23 Sep 2026",
+          "title": "Up to eight extinct-in-the-wild Sihek are preparing for release",
+          "text": "Ten Sihek, also known as Guam kingfishers, are entering a two-month quarantine ahead of a planned release on predator-free Palmyra Atoll. Up to eight could join the nine birds released there in 2024, nearly doubling the species’ wild population.",
+          "why": "A second release could strengthen the foundation for a self-sustaining wild population of a species with fewer than 150 birds left worldwide. The birds must first clear quarantine, and although wild pairs have nested and laid eggs, none has hatched yet.",
+          "href": "https://www.brookfieldzoo.org/press-releases/new-group-of-extinct-in-the-wild-sihek-heading-to-quarantine-ahead-of-expected-wild-release",
+          "source": "Brookfield Zoo Chicago · 23 Sep 2026"
+        },
+        {
+          "cat": "SOCIETY",
+          "date": "22 Sep 2026",
+          "title": "More than $115 million will be returned to New York delivery workers",
+          "text": "A $131.5 million settlement requires DoorDash to pay more than $115 million in restitution to over 260,000 delivery workers after a city investigation found minimum-pay and missed-payment violations. Eligible workers will not need to file a claim.",
+          "why": "The settlement turns worker-protection rules into direct compensation and includes more than $16 million in penalties and fees. Payments will vary by worker and are scheduled in stages beginning in late October, with a smaller second round in early 2027.",
+          "href": "https://home4.nyc.gov/site/dca/workers/workersrights/doordash-delivery-workers.page",
+          "source": "NYC Department of Consumer and Worker Protection · 22 Sep 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-09-23",
       "readyForSend": true,
       "label": "DAILY EDITION",
