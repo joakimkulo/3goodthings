@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-23",
+  "editionDate": "2026-09-24",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 003",
+  "number": "No. 004",
   "title": "Three things worth knowing",
-  "subtitle": "Promising diabetes trial results, a new limit for complex life and lower trade barriers between the EU and the Philippines.",
+  "subtitle": "Real-world lessons for incisionless cancer care, a second Sihek release and $115 million returning to delivery workers.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "22 Sep 2026",
-      "title": "An experimental diabetes drug delivered strong blood-sugar and weight results",
-      "text": "In a 447-person Phase II trial, the highest dose of Roche’s once-weekly enicepatide lowered average HbA1c by 2.65 percentage points and body weight by 15.5% after 48 weeks. Sixty-two percent of participants at that dose reached blood-sugar levels below the diabetes range.",
-      "why": "The results point to another potentially effective option for people living with type 2 diabetes and obesity. The figures are company-reported topline data, however, and the drug still needs larger late-stage trials to confirm long-term benefits and safety.",
-      "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/roches-obesity-drug-boosts-blood-sugar-control-drives-155-weight-loss-mid-stage-2026-09-22/",
-      "source": "Reuters · 22 Sep 2026"
+      "date": "23 Sep 2026",
+      "title": "An incisionless liver-tumour treatment showed low procedural toxicity in real-world use",
+      "text": "A review of 972 US patients treated with histotripsy found that 88.4% went home the same day, while acute kidney injury occurred in 1.2%, readmission in 0.9% and emergency visits in 0.4%. The outpatient procedure uses focused sound waves rather than an incision to destroy tumour tissue.",
+      "why": "The results suggest this newer treatment can often be delivered with few immediate procedural complications. The study was retrospective and could not assess tumour control or causation; 11.1% of patients died within 30 days, underscoring the need for better patient selection and prospective evidence.",
+      "href": "https://www.uvahealth.com/news/real-world-results-in-for-new-incisionless-liver-cancer-treatment",
+      "source": "UVA Health · 23 Sep 2026"
     },
     {
-      "cat": "SCIENCE",
-      "date": "22 Sep 2026",
-      "title": "A newly described amoeba has raised the heat limit for complex life",
-      "text": "Scientists found that Incendiamoeba cascadensis can reproduce at 63°C, three degrees above the previous known upper limit for eukaryotes, and remain active at 64°C. It also recovered after five minutes at 70°C.",
-      "why": "The discovery expands what scientists know about where complex cells can survive and may inform biotechnology and the search for life beyond Earth. It does not show that similar life exists elsewhere, and the amoeba still depends on a very specific ecosystem.",
-      "href": "https://science.nasa.gov/earth/nasa-funded-research-finds-complex-life-defying-record-heat/",
-      "source": "NASA Science · 22 Sep 2026"
+      "cat": "NATURE",
+      "date": "23 Sep 2026",
+      "title": "Up to eight extinct-in-the-wild Sihek are preparing for release",
+      "text": "Ten Sihek, also known as Guam kingfishers, are entering a two-month quarantine ahead of a planned release on predator-free Palmyra Atoll. Up to eight could join the nine birds released there in 2024, nearly doubling the species’ wild population.",
+      "why": "A second release could strengthen the foundation for a self-sustaining wild population of a species with fewer than 150 birds left worldwide. The birds must first clear quarantine, and although wild pairs have nested and laid eggs, none has hatched yet.",
+      "href": "https://www.brookfieldzoo.org/press-releases/new-group-of-extinct-in-the-wild-sihek-heading-to-quarantine-ahead-of-expected-wild-release",
+      "source": "Brookfield Zoo Chicago · 23 Sep 2026"
     },
     {
-      "cat": "ECONOMY",
+      "cat": "SOCIETY",
       "date": "22 Sep 2026",
-      "title": "The EU and the Philippines reached an initial deal to remove most tariffs",
-      "text": "The two sides politically approved the key terms of a trade agreement that would eliminate tariffs on more than 94% of goods. Their existing bilateral trade totals €17.6 billion in goods and €10.3 billion in services.",
-      "why": "Lower barriers could expand trade, investment and market access across both economies. The agreement is not yet final: its terms must still be turned into legal text and complete the required approval processes.",
-      "href": "https://www.reuters.com/world/asia-pacific/eu-philippines-agree-free-trade-deal-2026-09-22/",
-      "source": "Reuters · 22 Sep 2026"
+      "title": "More than $115 million will be returned to New York delivery workers",
+      "text": "A $131.5 million settlement requires DoorDash to pay more than $115 million in restitution to over 260,000 delivery workers after a city investigation found minimum-pay and missed-payment violations. Eligible workers will not need to file a claim.",
+      "why": "The settlement turns worker-protection rules into direct compensation and includes more than $16 million in penalties and fees. Payments will vary by worker and are scheduled in stages beginning in late October, with a smaller second round in early 2027.",
+      "href": "https://home4.nyc.gov/site/dca/workers/workersrights/doordash-delivery-workers.page",
+      "source": "NYC Department of Consumer and Worker Protection · 22 Sep 2026"
     }
   ]
 }
