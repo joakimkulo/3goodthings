@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-24",
+  "editionDate": "2026-09-25",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 004",
+  "number": "No. 005",
   "title": "Three things worth knowing",
-  "subtitle": "Real-world lessons for incisionless cancer care, a second Sihek release and $115 million returning to delivery workers.",
+  "subtitle": "A newly identified genetic disorder, a renewable-energy record in Australia and new finance for sustainable cities.",
   "stories": [
     {
-      "cat": "HEALTH",
-      "date": "23 Sep 2026",
-      "title": "An incisionless liver-tumour treatment showed low procedural toxicity in real-world use",
-      "text": "A review of 972 US patients treated with histotripsy found that 88.4% went home the same day, while acute kidney injury occurred in 1.2%, readmission in 0.9% and emergency visits in 0.4%. The outpatient procedure uses focused sound waves rather than an incision to destroy tumour tissue.",
-      "why": "The results suggest this newer treatment can often be delivered with few immediate procedural complications. The study was retrospective and could not assess tumour control or causation; 11.1% of patients died within 30 days, underscoring the need for better patient selection and prospective evidence.",
-      "href": "https://www.uvahealth.com/news/real-world-results-in-for-new-incisionless-liver-cancer-treatment",
-      "source": "UVA Health · 23 Sep 2026"
+      "cat": "SCIENCE",
+      "date": "21 Sep 2026",
+      "title": "Researchers identified a rare genetic cause of a neurodevelopmental disorder",
+      "text": "Researchers found the same overactive BMPR2 variant in six unrelated children, five of whom had global developmental delay and four an autism diagnosis. Fruit-fly experiments showed that the variant drove excessive developmental signalling, while two experimental compounds reduced that signalling in isolated fly tissue.",
+      "why": "The finding can give some families a biological explanation and a clearer direction for future treatment research. It is based on only six children and fly models; the compounds are research tools, not treatments ready for patients.",
+      "href": "https://www.texaschildrens.org/content/news-release/rare-gain-function-variant-bmpr2-identified-new-cause-neurodevelopmental",
+      "source": "Texas Children’s · 21 Sep 2026"
     },
     {
-      "cat": "NATURE",
-      "date": "23 Sep 2026",
-      "title": "Up to eight extinct-in-the-wild Sihek are preparing for release",
-      "text": "Ten Sihek, also known as Guam kingfishers, are entering a two-month quarantine ahead of a planned release on predator-free Palmyra Atoll. Up to eight could join the nine birds released there in 2024, nearly doubling the species’ wild population.",
-      "why": "A second release could strengthen the foundation for a self-sustaining wild population of a species with fewer than 150 birds left worldwide. The birds must first clear quarantine, and although wild pairs have nested and laid eggs, none has hatched yet.",
-      "href": "https://www.brookfieldzoo.org/press-releases/new-group-of-extinct-in-the-wild-sihek-heading-to-quarantine-ahead-of-expected-wild-release",
-      "source": "Brookfield Zoo Chicago · 23 Sep 2026"
+      "cat": "ENERGY",
+      "date": "21 Sep 2026",
+      "title": "Solar and wind supplied a record 80.4% of demand on Australia’s main grid",
+      "text": "For one 30-minute period, sunshine and wind met 80.4% of electricity demand across Australia’s national electricity market. Rooftop solar alone supplied more than half, supported by utility-scale solar, wind and a small amount of hydro.",
+      "why": "The milestone shows how far a large power system can move toward renewable electricity as generation and storage expand. It was a brief record during sunny, low-demand conditions; renewables averaged 44% over the year to June, and investment remains below the pace needed for the 2030 target.",
+      "href": "https://www.theguardian.com/environment/2026/sep/22/solar-and-wind-generation-record-80-percent-australia-national-grid",
+      "source": "The Guardian · 21 Sep 2026"
     },
     {
       "cat": "SOCIETY",
       "date": "22 Sep 2026",
-      "title": "More than $115 million will be returned to New York delivery workers",
-      "text": "A $131.5 million settlement requires DoorDash to pay more than $115 million in restitution to over 260,000 delivery workers after a city investigation found minimum-pay and missed-payment violations. Eligible workers will not need to file a claim.",
-      "why": "The settlement turns worker-protection rules into direct compensation and includes more than $16 million in penalties and fees. Payments will vary by worker and are scheduled in stages beginning in late October, with a smaller second round in early 2027.",
-      "href": "https://home4.nyc.gov/site/dca/workers/workersrights/doordash-delivery-workers.page",
-      "source": "NYC Department of Consumer and Worker Protection · 22 Sep 2026"
+      "title": "A €50 million guarantee will help finance sustainable cities in developing countries",
+      "text": "The European Union is providing the UN Capital Development Fund with a guarantee of up to €50 million to help attract public and private finance for urban infrastructure in least-developed countries, small island states and fragile settings.",
+      "why": "The facility can reduce financing risks for projects such as clean energy, water, transport, housing, education and healthcare where conventional capital is scarce. It is a guarantee rather than €50 million of direct project spending, and the amount of additional finance and infrastructure ultimately delivered is not yet known.",
+      "href": "https://www.uncdf.org/article/9335/european-union-and-uncdf-announce-landmark-eur-50-million-guarantee-partnership-for-sustainable-cities-during-unga81",
+      "source": "UN Capital Development Fund · 22 Sep 2026"
     }
   ]
 }
