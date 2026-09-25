@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-09-25",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 005",
+      "title": "Three things worth knowing",
+      "subtitle": "A newly identified genetic disorder, a renewable-energy record in Australia and new finance for sustainable cities.",
+      "stories": [
+        {
+          "cat": "SCIENCE",
+          "date": "21 Sep 2026",
+          "title": "Researchers identified a rare genetic cause of a neurodevelopmental disorder",
+          "text": "Researchers found the same overactive BMPR2 variant in six unrelated children, five of whom had global developmental delay and four an autism diagnosis. Fruit-fly experiments showed that the variant drove excessive developmental signalling, while two experimental compounds reduced that signalling in isolated fly tissue.",
+          "why": "The finding can give some families a biological explanation and a clearer direction for future treatment research. It is based on only six children and fly models; the compounds are research tools, not treatments ready for patients.",
+          "href": "https://www.texaschildrens.org/content/news-release/rare-gain-function-variant-bmpr2-identified-new-cause-neurodevelopmental",
+          "source": "Texas Children’s · 21 Sep 2026"
+        },
+        {
+          "cat": "ENERGY",
+          "date": "21 Sep 2026",
+          "title": "Solar and wind supplied a record 80.4% of demand on Australia’s main grid",
+          "text": "For one 30-minute period, sunshine and wind met 80.4% of electricity demand across Australia’s national electricity market. Rooftop solar alone supplied more than half, supported by utility-scale solar, wind and a small amount of hydro.",
+          "why": "The milestone shows how far a large power system can move toward renewable electricity as generation and storage expand. It was a brief record during sunny, low-demand conditions; renewables averaged 44% over the year to June, and investment remains below the pace needed for the 2030 target.",
+          "href": "https://www.theguardian.com/environment/2026/sep/22/solar-and-wind-generation-record-80-percent-australia-national-grid",
+          "source": "The Guardian · 21 Sep 2026"
+        },
+        {
+          "cat": "SOCIETY",
+          "date": "22 Sep 2026",
+          "title": "A €50 million guarantee will help finance sustainable cities in developing countries",
+          "text": "The European Union is providing the UN Capital Development Fund with a guarantee of up to €50 million to help attract public and private finance for urban infrastructure in least-developed countries, small island states and fragile settings.",
+          "why": "The facility can reduce financing risks for projects such as clean energy, water, transport, housing, education and healthcare where conventional capital is scarce. It is a guarantee rather than €50 million of direct project spending, and the amount of additional finance and infrastructure ultimately delivered is not yet known.",
+          "href": "https://www.uncdf.org/article/9335/european-union-and-uncdf-announce-landmark-eur-50-million-guarantee-partnership-for-sustainable-cities-during-unga81",
+          "source": "UN Capital Development Fund · 22 Sep 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-09-24",
       "readyForSend": true,
       "label": "DAILY EDITION",
