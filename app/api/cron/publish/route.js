@@ -59,7 +59,7 @@ function editionHtml() {
     <p style="margin:0 0 8px;font:12px Arial,sans-serif;letter-spacing:2px">3 GOOD THINGS</p>
     <h1 style="margin:0;font:400 42px Georgia,serif">${escapeHtml(edition.title)}</h1>
     <p style="font:18px Georgia,serif;line-height:1.5">${escapeHtml(edition.subtitle)}</p>
-    <p style="font:14px/1.5 Arial,sans-serif;color:#414345">One story worth passing on? Share or email it directly below the story.</p>
+    <p style="font:14px/1.5 Arial,sans-serif;color:#414345">Three real advances, with sources and context. Share a story using the links below.</p>
     ${stories}
   </div>`;
 }
