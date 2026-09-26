@@ -2,8 +2,8 @@ import './globals.css';
 import edition from '../content/edition.json';
 
 const siteUrl = 'https://3goodthings.news';
-const title = '3 Good Things — Real progress, every morning';
-const description = 'Three positive, fact-based stories. Verified, sourced and explained in under two minutes.';
+const title = '3 Good Things — Three real advances, every morning';
+const description = 'Three important advances every morning, backed by sources and explained with their limits in view.';
 const defaultImage = `/api/og?date=${encodeURIComponent(edition.editionDate)}&story=1`;
 
 export const metadata = {
