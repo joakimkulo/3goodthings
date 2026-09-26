@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-25",
+  "editionDate": "2026-09-26",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 005",
+  "number": "No. 006",
   "title": "Three things worth knowing",
-  "subtitle": "A newly identified genetic disorder, a renewable-energy record in Australia and new finance for sustainable cities.",
+  "subtitle": "Stronger medical-device quality checks, a more comprehensive genetic test and temporary classrooms restoring education after floods.",
   "stories": [
     {
-      "cat": "SCIENCE",
-      "date": "21 Sep 2026",
-      "title": "Researchers identified a rare genetic cause of a neurodevelopmental disorder",
-      "text": "Researchers found the same overactive BMPR2 variant in six unrelated children, five of whom had global developmental delay and four an autism diagnosis. Fruit-fly experiments showed that the variant drove excessive developmental signalling, while two experimental compounds reduced that signalling in isolated fly tissue.",
-      "why": "The finding can give some families a biological explanation and a clearer direction for future treatment research. It is based on only six children and fly models; the compounds are research tools, not treatments ready for patients.",
-      "href": "https://www.texaschildrens.org/content/news-release/rare-gain-function-variant-bmpr2-identified-new-cause-neurodevelopmental",
-      "source": "Texas Children’s · 21 Sep 2026"
+      "cat": "HEALTH",
+      "date": "25 Sep 2026",
+      "title": "WHO expanded quality checks for essential medical devices",
+      "text": "WHO expanded its prequalification programme to cover a wider range of products, including male and female condoms, intrauterine devices and AI-assisted tuberculosis-screening software. The programme independently assesses quality, safety and performance, then lists products that meet its standards for procurement guidance.",
+      "why": "The expansion can help countries with limited regulatory capacity identify trustworthy devices for reproductive health, HIV prevention and earlier TB screening. It does not automatically make products available: manufacturers must apply, devices must pass assessment, and procurement and delivery still have to follow.",
+      "href": "https://www.who.int/news/item/25-09-2026-who-announces-expansion-of-prequalification-programme-for-medical-devices",
+      "source": "World Health Organization · 25 Sep 2026"
     },
     {
-      "cat": "ENERGY",
-      "date": "21 Sep 2026",
-      "title": "Solar and wind supplied a record 80.4% of demand on Australia’s main grid",
-      "text": "For one 30-minute period, sunshine and wind met 80.4% of electricity demand across Australia’s national electricity market. Rooftop solar alone supplied more than half, supported by utility-scale solar, wind and a small amount of hydro.",
-      "why": "The milestone shows how far a large power system can move toward renewable electricity as generation and storage expand. It was a brief record during sunny, low-demand conditions; renewables averaged 44% over the year to June, and investment remains below the pace needed for the 2030 target.",
-      "href": "https://www.theguardian.com/environment/2026/sep/22/solar-and-wind-generation-record-80-percent-australia-national-grid",
-      "source": "The Guardian · 21 Sep 2026"
+      "cat": "SCIENCE",
+      "date": "25 Sep 2026",
+      "title": "One DNA test diagnosed more than a third of long-unsolved muscle-disease cases",
+      "text": "Researchers applied a targeted long-read DNA test to 53 Australians with known or suspected inherited muscle disease. It produced new diagnoses for 11 of 31 people whose earlier genetic testing had not found a cause, while examining more than 300 disease-linked genes in one assay.",
+      "why": "A confirmed diagnosis can guide monitoring, family counselling, support and eligibility for clinical trials while replacing multiple separate genetic tests. This was a small Australian research cohort; the test is not yet routine care and it does not treat or cure the diseases.",
+      "href": "https://bioquicknews.com/new-dna-test-finds-answers-for-patients-with-inherited-muscle-disease/",
+      "source": "BioQuick News · 25 Sep 2026"
     },
     {
       "cat": "SOCIETY",
-      "date": "22 Sep 2026",
-      "title": "A €50 million guarantee will help finance sustainable cities in developing countries",
-      "text": "The European Union is providing the UN Capital Development Fund with a guarantee of up to €50 million to help attract public and private finance for urban infrastructure in least-developed countries, small island states and fragile settings.",
-      "why": "The facility can reduce financing risks for projects such as clean energy, water, transport, housing, education and healthcare where conventional capital is scarce. It is a guarantee rather than €50 million of direct project spending, and the amount of additional finance and infrastructure ultimately delivered is not yet known.",
-      "href": "https://www.uncdf.org/article/9335/european-union-and-uncdf-announce-landmark-eur-50-million-guarantee-partnership-for-sustainable-cities-during-unga81",
-      "source": "UN Capital Development Fund · 22 Sep 2026"
+      "date": "23 Sep 2026",
+      "title": "Temporary classrooms returned more than 1,400 children to learning after Nepal’s floods",
+      "text": "UNICEF, Nepal’s government and partners established 48 temporary learning centres after floods disrupted education for more than 14,000 children across 62 schools and learning sites. The centres have helped over 1,400 children resume lessons, with learning materials and psychosocial support.",
+      "why": "Restoring school gives children routine, support and continuity after a devastating disaster. The response currently reaches only a fraction of affected pupils; many families remain displaced, access is blocked in some areas and substantial rebuilding is still required.",
+      "href": "https://www.unicef.org/asia-pacific/press-releases/one-month-after-floods-efforts-restore-education-are-helping-children-return",
+      "source": "UNICEF · 23 Sep 2026"
     }
   ]
 }
