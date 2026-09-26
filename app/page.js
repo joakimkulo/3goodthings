@@ -105,8 +105,8 @@ export default function Home() {
 
     <section className="hero" id="top">
       <div className="issue"><span>THE MORNING BRIEF</span><DeliveryClock /></div>
-      <h1>A brighter perspective<br />on the news.</h1>
-      <p className="lede">Every morning, we find three meaningful things that went right — verified, sourced and explained without the sugar coating.</p>
+      <h1>Three real advances.<br />Every morning.</h1>
+      <p className="lede">Three important developments, backed by sources and explained with the limits in view. Free in your inbox every morning.</p>
       <SignupForm />
     </section>
 
@@ -135,7 +135,7 @@ export default function Home() {
 
     <section className="manifesto">
       <blockquote>“The world isn’t only<br />what goes wrong.”</blockquote>
-      <div><span className="kicker">OUR POINT OF VIEW</span><h2>Good news without the sugar coating.</h2><p>We don’t believe everything is fine. We believe progress deserves reporting too. A story earns its place through a discovery, recovery, solved problem or concrete improvement — with enough context to understand what still needs work.</p></div>
+      <div><span className="kicker">OUR POINT OF VIEW</span><h2>Progress worth knowing, without the hype.</h2><p>Each edition covers three concrete advances in health, nature, science or society. We show what happened, why it matters and what remains uncertain, so you can share the story with confidence.</p></div>
     </section>
 
     <section className="faq" id="faq">
@@ -147,7 +147,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="subscribe-band" id="subscribe"><div><span className="kicker">START TOMORROW DIFFERENTLY</span><h2>Three good things.<br />One calmer morning.</h2></div><SignupForm compact /></section>
+    <section className="subscribe-band" id="subscribe"><div><span className="kicker">START TOMORROW DIFFERENTLY</span><h2>Three real advances.<br />One useful morning.</h2></div><SignupForm compact /></section>
 
     <a className="back-to-top" href="#top" aria-label="Back to the top of the page"><span>Back to top</span><b aria-hidden="true">↑</b></a>
 
