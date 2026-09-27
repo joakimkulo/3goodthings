@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-09-27",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 007",
+      "title": "Three things worth knowing",
+      "subtitle": "A late-stage autoimmune trial, recovering seagrass and a space telescope’s high-speed data network.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "22 Sep 2026",
+          "title": "A Phase III trial reduced systemic activity in Sjögren’s disease",
+          "text": "Dazodalibep met the primary endpoint in a randomized, placebo-controlled Phase III study of about 621 adults with moderate-to-severe systemic Sjögren’s disease. Amgen reported clinically meaningful improvement at week 48, with changes seen from week four and sustained through the study.",
+          "why": "Sjögren’s currently has no FDA-approved disease-modifying treatment, so a successful late-stage trial is a meaningful step. The result is company-reported topline data: the effect size and full dataset have not yet been published, the drug remains investigational, and another Phase III study is still under way.",
+          "href": "https://investors.amgen.com/news-releases/news-release-details/amgen-announces-positive-topline-phase-3-results-dazodalibep",
+          "source": "Amgen · 22 Sep 2026"
+        },
+        {
+          "cat": "NATURE",
+          "date": "21 Sep 2026",
+          "title": "Eco-moorings helped damaged seagrass shrink its scars by 93.6%",
+          "text": "Five years of monitoring at Studland Bay tracked 39 damaged seabed areas. Where ten eco-moorings replaced damaging anchor chains, bare patches in the seagrass fell by an average of 93.6% between 2021 and 2025; all examined scars showed recovery after disturbance stopped.",
+          "why": "The findings show that removing a specific source of damage can allow an important coastal habitat to regenerate naturally. This was an observational study in one bay, not a randomized experiment, so results may differ in other locations and do not address wider pressures such as pollution or warming.",
+          "href": "https://www.studlandbay.org/update/proof-that-eco-moorings-help-save-seagrass/",
+          "source": "Studland Bay Marine Partnership · 21 Sep 2026"
+        },
+        {
+          "cat": "SCIENCE",
+          "date": "25 Sep 2026",
+          "title": "Roman’s ground network passed tests at up to 500 megabits per second",
+          "text": "Ground stations operated by NASA, ESA and JAXA successfully received operational data from the Nancy Grace Roman Space Telescope at tested rates up to 500 megabits per second. The network is designed to handle about 1.4 terabytes a day, the highest data volume planned for a NASA astrophysics mission.",
+          "why": "The successful international tests remove a major communications hurdle before Roman begins wide-field studies of dark matter, dark energy and exoplanets. The observatory is still being commissioned; these were engineering tests, not science results, and first science images are expected in early 2027.",
+          "href": "https://science.nasa.gov/blogs/roman/2026/09/25/nasas-roman-team-confirms-ground-stations-receiving-data/",
+          "source": "NASA Science · 25 Sep 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-09-26",
       "readyForSend": true,
       "label": "DAILY EDITION",
