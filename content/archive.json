@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-09-28",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 008",
+      "title": "Three things worth knowing",
+      "subtitle": "A new treatment for a rare bone disorder, 61.5 GW of cancelled coal plans and Gaza’s return to in-person learning.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "25 Sep 2026",
+          "title": "FDA approved a once-daily pill for people aged 12+ with FOP",
+          "text": "Atebrioz was approved to reduce new abnormal bone formation in people aged 12 and older with fibrodysplasia ossificans progressiva. In a 63-person randomized study, mean new lesion volume fell by 3.2 cm³ after 24 weeks, versus a 24.6 cm³ increase with placebo.",
+          "why": "It adds an oral option for an ultra-rare disease that progressively restricts movement. The trial was small, the approval is not a cure and longer-term effects on mobility and disability remain uncertain.",
+          "href": "https://investor.incyte.com/news-releases/news-release-details/mirum-pharmaceuticals-and-incyte-announce-us-fda-approval",
+          "source": "Mirum Pharmaceuticals and Incyte · 25 Sep 2026"
+        },
+        {
+          "cat": "CLIMATE & ENERGY",
+          "date": "23 Sep 2026",
+          "title": "China-linked developers cancelled 61.5 GW of planned overseas coal power",
+          "text": "Researchers found that 67% of the overseas coal capacity in China’s 2021 project pipeline has been cancelled. They estimate the 61.5 GW of cancellations could avoid 6.4 billion tonnes of carbon dioxide over the projects’ lifetimes.",
+          "why": "The cancellations mark a substantial shift away from new coal infrastructure. The emissions figure is modelled rather than measured, while 20.5 GW remains planned and 3.3 GW entered construction in the past year.",
+          "href": "https://energyandcleanair.org/publication/five-years-on-china-seeds-overseas-renewables-growth-but-coal-ban-gaps-persist/",
+          "source": "Centre for Research on Energy and Clean Air · 23 Sep 2026"
+        },
+        {
+          "cat": "SOCIETY",
+          "date": "21 Sep 2026",
+          "title": "About 540,000 Gaza students are returning to in-person classes",
+          "text": "Children in Gaza began a new academic year with face-to-face teaching for the first time in nearly three years. At least 540,000 students are expected to attend in person, many in makeshift schools and temporary learning centres supported by UNICEF.",
+          "why": "Regular contact with teachers and classmates restores part of children’s education and daily routine. The recovery is fragile: 98% of school buildings have been damaged or destroyed, supplies are scarce and security risks persist.",
+          "href": "https://www.reuters.com/world/middle-east/gaza-students-return-in-person-schooling-first-time-three-years-2026-09-21/",
+          "source": "Reuters · 21 Sep 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-09-27",
       "readyForSend": true,
       "label": "DAILY EDITION",
