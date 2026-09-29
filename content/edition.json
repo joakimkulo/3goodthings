@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-28",
+  "editionDate": "2026-09-29",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 008",
+  "number": "No. 009",
   "title": "Three things worth knowing",
-  "subtitle": "A new treatment for a rare bone disorder, 61.5 GW of cancelled coal plans and Gaza’s return to in-person learning.",
+  "subtitle": "A new Parkinson’s treatment, an industrial steelworks carbon-capture trial and a €30.9 million worker settlement.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "25 Sep 2026",
-      "title": "FDA approved a once-daily pill for people aged 12+ with FOP",
-      "text": "Atebrioz was approved to reduce new abnormal bone formation in people aged 12 and older with fibrodysplasia ossificans progressiva. In a 63-person randomized study, mean new lesion volume fell by 3.2 cm³ after 24 weeks, versus a 24.6 cm³ increase with placebo.",
-      "why": "It adds an oral option for an ultra-rare disease that progressively restricts movement. The trial was small, the approval is not a cure and longer-term effects on mobility and disability remain uncertain.",
-      "href": "https://investor.incyte.com/news-releases/news-release-details/mirum-pharmaceuticals-and-incyte-announce-us-fda-approval",
-      "source": "Mirum Pharmaceuticals and Incyte · 25 Sep 2026"
+      "date": "28 Sep 2026",
+      "title": "FDA approved once-daily tavapadon for adults with Parkinson’s",
+      "text": "Juvmo (tavapadon) was approved as a once-daily pill, with or without levodopa. In a Phase III trial of patients with motor fluctuations, it increased daily “on” time without troublesome dyskinesia by 1.7 hours at week 26, versus 0.6 hours with placebo.",
+      "why": "It gives adults another oral option for managing movement symptoms. It does not slow or cure Parkinson’s; the evidence comes from company-sponsored trials, and reported adverse effects included nausea, dizziness, dyskinesia and hallucinations.",
+      "href": "https://news.abbvie.com/2026-09-28-U-S-FDA-Approves-AbbVies-JUVMO-TM-tavapadon-for-Parkinsons-Disease",
+      "source": "AbbVie · 28 Sep 2026"
     },
     {
-      "cat": "CLIMATE & ENERGY",
-      "date": "23 Sep 2026",
-      "title": "China-linked developers cancelled 61.5 GW of planned overseas coal power",
-      "text": "Researchers found that 67% of the overseas coal capacity in China’s 2021 project pipeline has been cancelled. They estimate the 61.5 GW of cancellations could avoid 6.4 billion tonnes of carbon dioxide over the projects’ lifetimes.",
-      "why": "The cancellations mark a substantial shift away from new coal infrastructure. The emissions figure is modelled rather than measured, while 20.5 GW remains planned and 3.3 GW entered construction in the past year.",
-      "href": "https://energyandcleanair.org/publication/five-years-on-china-seeds-overseas-renewables-growth-but-coal-ban-gaps-persist/",
-      "source": "Centre for Research on Energy and Clean Air · 23 Sep 2026"
+      "cat": "CLIMATE & INDUSTRY",
+      "date": "28 Sep 2026",
+      "title": "A steelworks carbon-capture trial can collect 10,000 tonnes of CO₂ a year",
+      "text": "Shougang and Rio Tinto commissioned an industrial-scale trial at the Jingtang steelworks in China. The facility can process up to 3,000 cubic metres of blast-furnace gas per hour and capture up to 10,000 tonnes of carbon dioxide annually.",
+      "why": "It moves the technology from a smaller pilot into an operating steelworks. This remains a research facility, the stated capacity is not verified annual performance, and the captured volume is small relative to steelmaking’s total emissions.",
+      "href": "https://www.riotinto.com/en/news/releases/2026/shougang-group-and-rio-tinto-commission-an-industrial-scale-carbon-capture-trial-facility-for-blast-furnace-gas",
+      "source": "Rio Tinto · 28 Sep 2026"
     },
     {
       "cat": "SOCIETY",
-      "date": "21 Sep 2026",
-      "title": "About 540,000 Gaza students are returning to in-person classes",
-      "text": "Children in Gaza began a new academic year with face-to-face teaching for the first time in nearly three years. At least 540,000 students are expected to attend in person, many in makeshift schools and temporary learning centres supported by UNICEF.",
-      "why": "Regular contact with teachers and classmates restores part of children’s education and daily routine. The recovery is fragile: 98% of school buildings have been damaged or destroyed, supplies are scarce and security risks persist.",
-      "href": "https://www.reuters.com/world/middle-east/gaza-students-return-in-person-schooling-first-time-three-years-2026-09-21/",
-      "source": "Reuters · 21 Sep 2026"
+      "date": "27 Sep 2026",
+      "title": "Builder committed €30.9 million after a Milan worker-exploitation probe",
+      "text": "Caddell Construction committed €30.941 million following an investigation at the new US consulate site. Nearly €20 million is intended for overtime, accommodation reimbursements and non-material damages, while the agreement also involves regularising around 500 workers.",
+      "why": "The settlement could deliver back pay and greater legal security to migrant workers. Payments were not yet complete when reported, the worker count came from sources familiar with the case, and the company said the commitment was not an admission of liability.",
+      "href": "https://www.reuters.com/business/us-consulate-builder-milan-pay-35-million-over-labour-probe-document-shows-2026-09-27/",
+      "source": "Reuters · 27 Sep 2026"
     }
   ]
 }
