@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-09-29",
+  "editionDate": "2026-09-30",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 009",
+  "number": "No. 010",
   "title": "Three things worth knowing",
-  "subtitle": "A new Parkinson’s treatment, an industrial steelworks carbon-capture trial and a €30.9 million worker settlement.",
+  "subtitle": "A Phase III obesity treatment result, completed worker-rights remedies and a new global restoration baseline.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "28 Sep 2026",
-      "title": "FDA approved once-daily tavapadon for adults with Parkinson’s",
-      "text": "Juvmo (tavapadon) was approved as a once-daily pill, with or without levodopa. In a Phase III trial of patients with motor fluctuations, it increased daily “on” time without troublesome dyskinesia by 1.7 hours at week 26, versus 0.6 hours with placebo.",
-      "why": "It gives adults another oral option for managing movement symptoms. It does not slow or cure Parkinson’s; the evidence comes from company-sponsored trials, and reported adverse effects included nausea, dizziness, dyskinesia and hallucinations.",
-      "href": "https://news.abbvie.com/2026-09-28-U-S-FDA-Approves-AbbVies-JUVMO-TM-tavapadon-for-Parkinsons-Disease",
-      "source": "AbbVie · 28 Sep 2026"
-    },
-    {
-      "cat": "CLIMATE & INDUSTRY",
-      "date": "28 Sep 2026",
-      "title": "A steelworks carbon-capture trial can collect 10,000 tonnes of CO₂ a year",
-      "text": "Shougang and Rio Tinto commissioned an industrial-scale trial at the Jingtang steelworks in China. The facility can process up to 3,000 cubic metres of blast-furnace gas per hour and capture up to 10,000 tonnes of carbon dioxide annually.",
-      "why": "It moves the technology from a smaller pilot into an operating steelworks. This remains a research facility, the stated capacity is not verified annual performance, and the captured volume is small relative to steelmaking’s total emissions.",
-      "href": "https://www.riotinto.com/en/news/releases/2026/shougang-group-and-rio-tinto-commission-an-industrial-scale-carbon-capture-trial-facility-for-blast-furnace-gas",
-      "source": "Rio Tinto · 28 Sep 2026"
+      "date": "29 Sep 2026",
+      "title": "Phase III retatrutide trial cut average weight by 18.8% at 80 weeks",
+      "text": "In a randomized trial of 2,047 adults with obesity and type 2 diabetes, the 12 mg weekly dose reduced average body weight by 18.8%, versus 5.1% with placebo. Seventy-two percent reached an HbA1c of 6.5% or lower.",
+      "why": "The results point to another potentially effective option for people managing both obesity and diabetes. Retatrutide is not approved, the study was funded by its maker Eli Lilly, and gastrointestinal side effects were common.",
+      "href": "https://www.theguardian.com/science/2026/sep/29/retatrutide-godzilla-of-weight-loss-drugs-other-health-benefits",
+      "source": "The Guardian · 29 Sep 2026"
     },
     {
       "cat": "SOCIETY",
-      "date": "27 Sep 2026",
-      "title": "Builder committed €30.9 million after a Milan worker-exploitation probe",
-      "text": "Caddell Construction committed €30.941 million following an investigation at the new US consulate site. Nearly €20 million is intended for overtime, accommodation reimbursements and non-material damages, while the agreement also involves regularising around 500 workers.",
-      "why": "The settlement could deliver back pay and greater legal security to migrant workers. Payments were not yet complete when reported, the worker count came from sources familiar with the case, and the company said the commitment was not an admission of liability.",
-      "href": "https://www.reuters.com/business/us-consulate-builder-milan-pay-35-million-over-labour-probe-document-shows-2026-09-27/",
-      "source": "Reuters · 27 Sep 2026"
+      "date": "28 Sep 2026",
+      "title": "Akwel reinstated three workers with full backpay after a labor-rights case",
+      "text": "A remediation plan at Akwel’s Ciudad Juárez plant reinstated three workers with full backpay and benefits and paid full severance to six others. The company also restructured labor management and introduced annual rights training and a confidential complaint channel.",
+      "why": "The measures provide direct remedies and stronger protections after authorities found interference with organizing rights. The outcome covers one facility, and lasting improvement will depend on continued monitoring and enforcement.",
+      "href": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/september/united-states-and-mexico-announce-successful-resolution-rapid-response-labor-mechanism-matter-akwel",
+      "source": "Office of the U.S. Trade Representative · 28 Sep 2026"
+    },
+    {
+      "cat": "NATURE",
+      "date": "28 Sep 2026",
+      "title": "62 countries report 206.5 million hectares under restoration",
+      "text": "New FAO analysis says 62 countries have reported about 206.5 million hectares of forests and landscapes under restoration—around 44% of the estimated global terrestrial area needed to meet the 2030 biodiversity target.",
+      "why": "It provides the clearest baseline yet showing restoration at significant scale. “Under restoration” does not mean recovery is complete, reporting methods vary, and about 56% of the estimated need remains.",
+      "href": "https://www.fao.org/ecosystem-restoration-monitoring/news/news-detail/tracking-restoration-progress-of-the-world-s-forests/en",
+      "source": "FAO · 28 Sep 2026"
     }
   ]
 }
