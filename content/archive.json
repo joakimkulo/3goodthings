@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-10-01",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 011",
+      "title": "Three things worth knowing",
+      "subtitle": "A promising Phase II skin-disease result, record little-tern nesting and new AI safeguards for workers.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "30 Sep 2026",
+          "title": "Phase II skin-disease trial reached a 72% response rate",
+          "text": "In Merck’s mid-stage trial, 72% of patients receiving the highest tulisokibart dose achieved at least a 50% reduction in inflammatory lesions after 16 weeks, compared with 35% on placebo. Forty-one percent achieved at least a 75% reduction, versus 15% on placebo.",
+          "why": "The result points to a potential new treatment for hidradenitis suppurativa, a chronic condition that causes painful skin lumps. Tulisokibart remains experimental, and larger trials must confirm its effectiveness and long-term safety.",
+          "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/merck-says-experimental-skin-disease-drug-meets-main-goal-mid-stage-study-2026-09-30/",
+          "source": "Reuters · 30 Sep 2026"
+        },
+        {
+          "cat": "NATURE",
+          "date": "30 Sep 2026",
+          "title": "Little-tern breeding pairs doubled to a record 126 at Long Nanny",
+          "text": "At least 126 little-tern pairs nested at the protected Northumberland site—double its previous record—and at least 82 chicks fledged. The rebound followed years of disruption from bird flu, flooding and extreme weather.",
+          "why": "The season shows that careful protection of a vulnerable breeding site can produce measurable recovery. It is one season at one site, and other English tern colonies still recorded declines.",
+          "href": "https://www.theguardian.com/environment/2026/sep/30/england-tern-colonies-signs-of-recovery-national-trust",
+          "source": "The Guardian · 30 Sep 2026"
+        },
+        {
+          "cat": "SOCIETY",
+          "date": "30 Sep 2026",
+          "title": "California barred employers from relying on AI to fire workers",
+          "text": "Newly signed laws also ban employers from using biometric data to predict workers’ emotions and require written notice when AI is responsible for mass layoffs.",
+          "why": "The measures establish concrete worker protections as AI spreads through employment decisions. They apply only in California, and their effectiveness will depend on implementation and enforcement.",
+          "href": "https://apnews.com/article/newsom-california-trump-ai-journalism-bills-1aa4935e3ee79519ae8b2458b2b9ebc1",
+          "source": "Associated Press · 30 Sep 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-09-30",
       "readyForSend": true,
       "label": "DAILY EDITION",
