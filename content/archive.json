@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-10-02",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 012",
+      "title": "Three things worth knowing",
+      "subtitle": "A size-adjustable heart valve, a record Colorado wolf count and historically low US jobless claims.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "1 Oct 2026",
+          "title": "FDA approved the first heart valve designed to grow with children",
+          "text": "The Autus pulmonary valve can be expanded from about 13 to 22 millimetres as a child grows. In a 62-patient study, all procedures succeeded; the first 60 patients had acceptable blood flow and no more than mild leakage at six months.",
+          "why": "The design could reduce repeat open-heart surgeries for children with congenital heart disease. Only two study patients have had the valve expanded so far; three had frame fractures and two had reduced leaflet movement, all without symptoms, and long-term studies are continuing.",
+          "href": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children",
+          "source": "U.S. Food and Drug Administration · 1 Oct 2026"
+        },
+        {
+          "cat": "NATURE",
+          "date": "1 Oct 2026",
+          "title": "Colorado recorded 45 gray wolves, including 20 pups",
+          "text": "The state’s new high count included four reproducing packs, a fifth group of four siblings and several unpaired wolves. Wildlife officials also temporarily suspended guidance for lethal removals.",
+          "why": "The count marks measurable progress in Colorado’s reintroduction programme. The population is not yet secure: adult survival was 61% versus a typical 75% for an unharvested population, some pups are unlikely to survive the year and a possible skin parasite is under investigation.",
+          "href": "https://www.cpr.org/2026/10/01/colorado-gray-wolves-depredation-killing-livestock-paused/",
+          "source": "Colorado Public Radio · 1 Oct 2026"
+        },
+        {
+          "cat": "SOCIETY",
+          "date": "1 Oct 2026",
+          "title": "US weekly jobless claims fell to 197,000, near a 57-year low",
+          "text": "New claims remained below 200,000 for a third week, continuing claims fell to 1.701 million—the lowest since April 2023—and announced layoffs dropped 18% in September.",
+          "why": "The figures indicate that most employers are still retaining workers despite economic headwinds. They are a short-term snapshot: September hiring plans were 23% below a year earlier, and some jobseekers continue to face long unemployment spells.",
+          "href": "https://www.reuters.com/legal/litigation/us-weekly-jobless-claims-fall-layoffs-drop-september-2026-10-01/",
+          "source": "Reuters · 1 Oct 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-10-01",
       "readyForSend": true,
       "label": "DAILY EDITION",
