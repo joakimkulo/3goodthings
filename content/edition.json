@@ -1,37 +1,37 @@
 {
-  "editionDate": "2026-10-01",
+  "editionDate": "2026-10-02",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 011",
+  "number": "No. 012",
   "title": "Three things worth knowing",
-  "subtitle": "A promising Phase II skin-disease result, record little-tern nesting and new AI safeguards for workers.",
+  "subtitle": "A size-adjustable heart valve, a record Colorado wolf count and historically low US jobless claims.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "30 Sep 2026",
-      "title": "Phase II skin-disease trial reached a 72% response rate",
-      "text": "In Merck’s mid-stage trial, 72% of patients receiving the highest tulisokibart dose achieved at least a 50% reduction in inflammatory lesions after 16 weeks, compared with 35% on placebo. Forty-one percent achieved at least a 75% reduction, versus 15% on placebo.",
-      "why": "The result points to a potential new treatment for hidradenitis suppurativa, a chronic condition that causes painful skin lumps. Tulisokibart remains experimental, and larger trials must confirm its effectiveness and long-term safety.",
-      "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/merck-says-experimental-skin-disease-drug-meets-main-goal-mid-stage-study-2026-09-30/",
-      "source": "Reuters · 30 Sep 2026"
+      "date": "1 Oct 2026",
+      "title": "FDA approved the first heart valve designed to grow with children",
+      "text": "The Autus pulmonary valve can be expanded from about 13 to 22 millimetres as a child grows. In a 62-patient study, all procedures succeeded; the first 60 patients had acceptable blood flow and no more than mild leakage at six months.",
+      "why": "The design could reduce repeat open-heart surgeries for children with congenital heart disease. Only two study patients have had the valve expanded so far; three had frame fractures and two had reduced leaflet movement, all without symptoms, and long-term studies are continuing.",
+      "href": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children",
+      "source": "U.S. Food and Drug Administration · 1 Oct 2026"
     },
     {
       "cat": "NATURE",
-      "date": "30 Sep 2026",
-      "title": "Little-tern breeding pairs doubled to a record 126 at Long Nanny",
-      "text": "At least 126 little-tern pairs nested at the protected Northumberland site—double its previous record—and at least 82 chicks fledged. The rebound followed years of disruption from bird flu, flooding and extreme weather.",
-      "why": "The season shows that careful protection of a vulnerable breeding site can produce measurable recovery. It is one season at one site, and other English tern colonies still recorded declines.",
-      "href": "https://www.theguardian.com/environment/2026/sep/30/england-tern-colonies-signs-of-recovery-national-trust",
-      "source": "The Guardian · 30 Sep 2026"
+      "date": "1 Oct 2026",
+      "title": "Colorado recorded 45 gray wolves, including 20 pups",
+      "text": "The state’s new high count included four reproducing packs, a fifth group of four siblings and several unpaired wolves. Wildlife officials also temporarily suspended guidance for lethal removals.",
+      "why": "The count marks measurable progress in Colorado’s reintroduction programme. The population is not yet secure: adult survival was 61% versus a typical 75% for an unharvested population, some pups are unlikely to survive the year and a possible skin parasite is under investigation.",
+      "href": "https://www.cpr.org/2026/10/01/colorado-gray-wolves-depredation-killing-livestock-paused/",
+      "source": "Colorado Public Radio · 1 Oct 2026"
     },
     {
       "cat": "SOCIETY",
-      "date": "30 Sep 2026",
-      "title": "California barred employers from relying on AI to fire workers",
-      "text": "Newly signed laws also ban employers from using biometric data to predict workers’ emotions and require written notice when AI is responsible for mass layoffs.",
-      "why": "The measures establish concrete worker protections as AI spreads through employment decisions. They apply only in California, and their effectiveness will depend on implementation and enforcement.",
-      "href": "https://apnews.com/article/newsom-california-trump-ai-journalism-bills-1aa4935e3ee79519ae8b2458b2b9ebc1",
-      "source": "Associated Press · 30 Sep 2026"
+      "date": "1 Oct 2026",
+      "title": "US weekly jobless claims fell to 197,000, near a 57-year low",
+      "text": "New claims remained below 200,000 for a third week, continuing claims fell to 1.701 million—the lowest since April 2023—and announced layoffs dropped 18% in September.",
+      "why": "The figures indicate that most employers are still retaining workers despite economic headwinds. They are a short-term snapshot: September hiring plans were 23% below a year earlier, and some jobseekers continue to face long unemployment spells.",
+      "href": "https://www.reuters.com/legal/litigation/us-weekly-jobless-claims-fall-layoffs-drop-september-2026-10-01/",
+      "source": "Reuters · 1 Oct 2026"
     }
   ]
 }
