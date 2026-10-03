@@ -1,36 +1,36 @@
 {
-  "editionDate": "2026-10-02",
+  "editionDate": "2026-10-03",
   "readyForSend": true,
   "label": "DAILY EDITION",
-  "number": "No. 012",
+  "number": "No. 013",
   "title": "Three things worth knowing",
-  "subtitle": "A size-adjustable heart valve, a record Colorado wolf count and historically low US jobless claims.",
+  "subtitle": "A lower cancer-risk association after appendectomy, faster X-59 flight testing and a ratified pay deal for 17,000 Boeing workers.",
   "stories": [
     {
       "cat": "HEALTH",
-      "date": "1 Oct 2026",
-      "title": "FDA approved the first heart valve designed to grow with children",
-      "text": "The Autus pulmonary valve can be expanded from about 13 to 22 millimetres as a child grows. In a 62-patient study, all procedures succeeded; the first 60 patients had acceptable blood flow and no more than mild leakage at six months.",
-      "why": "The design could reduce repeat open-heart surgeries for children with congenital heart disease. Only two study patients have had the valve expanded so far; three had frame fractures and two had reduced leaflet movement, all without symptoms, and long-term studies are continuing.",
-      "href": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children",
-      "source": "U.S. Food and Drug Administration · 1 Oct 2026"
+      "date": "2 Oct 2026",
+      "title": "30,000-case analysis linked appendectomy to 58% lower colorectal-cancer risk",
+      "text": "Among 15,774 people who had surgery for acute appendicitis, 0.7% were later diagnosed with colorectal cancer, compared with 1.7% of 15,295 people treated with antibiotics alone.",
+      "why": "The result identifies a possible long-term factor for treatment discussions and follow-up. It is an observational conference analysis, cannot prove that surgery prevented cancer and is not a recommendation for everyone with appendicitis to have an operation.",
+      "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/appendix-removal-linked-with-lower-colon-cancer-risk-study-2026-10-02/",
+      "source": "Reuters · 2 Oct 2026"
     },
     {
-      "cat": "NATURE",
-      "date": "1 Oct 2026",
-      "title": "Colorado recorded 45 gray wolves, including 20 pups",
-      "text": "The state’s new high count included four reproducing packs, a fifth group of four siblings and several unpaired wolves. Wildlife officials also temporarily suspended guidance for lethal removals.",
-      "why": "The count marks measurable progress in Colorado’s reintroduction programme. The population is not yet secure: adult survival was 61% versus a typical 75% for an unharvested population, some pups are unlikely to survive the year and a possible skin parasite is under investigation.",
-      "href": "https://www.cpr.org/2026/10/01/colorado-gray-wolves-depredation-killing-livestock-paused/",
-      "source": "Colorado Public Radio · 1 Oct 2026"
+      "cat": "SCIENCE",
+      "date": "2 Oct 2026",
+      "title": "NASA’s X-59 completed six test flights in one week and reached Mach 1.53",
+      "text": "The quiet-supersonic research aircraft beat its previous weekly record by two flights, reached about 1,010 mph and brought its total to 38 test flights.",
+      "why": "The higher test tempo advances work on supersonic flight with quieter sonic thumps. Community-response surveys and any regulatory change still lie ahead, and the aircraft has entered roughly three weeks of scheduled maintenance.",
+      "href": "https://www.nasa.gov/blogs/quesst/2026/10/02/nasas-x-59-completes-record-six-flights-in-one-week/",
+      "source": "NASA · 2 Oct 2026"
     },
     {
-      "cat": "SOCIETY",
+      "cat": "WORK",
       "date": "1 Oct 2026",
-      "title": "US weekly jobless claims fell to 197,000, near a 57-year low",
-      "text": "New claims remained below 200,000 for a third week, continuing claims fell to 1.701 million—the lowest since April 2023—and announced layoffs dropped 18% in September.",
-      "why": "The figures indicate that most employers are still retaining workers despite economic headwinds. They are a short-term snapshot: September hiring plans were 23% below a year earlier, and some jobseekers continue to face long unemployment spells.",
-      "href": "https://www.reuters.com/legal/litigation/us-weekly-jobless-claims-fall-layoffs-drop-september-2026-10-01/",
+      "title": "17,000 Boeing workers ratified a four-year contract with an immediate 10% raise",
+      "text": "The agreement also provides annual 4% raises and a possible additional 2% based on performance, after both professional and technical bargaining units approved it.",
+      "why": "The deal delivers a substantial pay increase and averts a strike that could have disrupted aircraft certification and deliveries. Support was not overwhelming—53% in the technical unit—and the union says deeper trust and engineering-culture problems remain.",
+      "href": "https://www.reuters.com/business/world-at-work/boeing-white-collar-workers-approve-latest-contract-offer-averting-strike-fears-2026-10-01/",
       "source": "Reuters · 1 Oct 2026"
     }
   ]
