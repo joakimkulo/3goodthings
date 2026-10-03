@@ -1,6 +1,43 @@
 {
   "editions": [
     {
+      "editionDate": "2026-10-03",
+      "readyForSend": true,
+      "label": "DAILY EDITION",
+      "number": "No. 013",
+      "title": "Three things worth knowing",
+      "subtitle": "A lower cancer-risk association after appendectomy, faster X-59 flight testing and a ratified pay deal for 17,000 Boeing workers.",
+      "stories": [
+        {
+          "cat": "HEALTH",
+          "date": "2 Oct 2026",
+          "title": "30,000-case analysis linked appendectomy to 58% lower colorectal-cancer risk",
+          "text": "Among 15,774 people who had surgery for acute appendicitis, 0.7% were later diagnosed with colorectal cancer, compared with 1.7% of 15,295 people treated with antibiotics alone.",
+          "why": "The result identifies a possible long-term factor for treatment discussions and follow-up. It is an observational conference analysis, cannot prove that surgery prevented cancer and is not a recommendation for everyone with appendicitis to have an operation.",
+          "href": "https://www.reuters.com/business/healthcare-pharmaceuticals/appendix-removal-linked-with-lower-colon-cancer-risk-study-2026-10-02/",
+          "source": "Reuters · 2 Oct 2026"
+        },
+        {
+          "cat": "SCIENCE",
+          "date": "2 Oct 2026",
+          "title": "NASA’s X-59 completed six test flights in one week and reached Mach 1.53",
+          "text": "The quiet-supersonic research aircraft beat its previous weekly record by two flights, reached about 1,010 mph and brought its total to 38 test flights.",
+          "why": "The higher test tempo advances work on supersonic flight with quieter sonic thumps. Community-response surveys and any regulatory change still lie ahead, and the aircraft has entered roughly three weeks of scheduled maintenance.",
+          "href": "https://www.nasa.gov/blogs/quesst/2026/10/02/nasas-x-59-completes-record-six-flights-in-one-week/",
+          "source": "NASA · 2 Oct 2026"
+        },
+        {
+          "cat": "WORK",
+          "date": "1 Oct 2026",
+          "title": "17,000 Boeing workers ratified a four-year contract with an immediate 10% raise",
+          "text": "The agreement also provides annual 4% raises and a possible additional 2% based on performance, after both professional and technical bargaining units approved it.",
+          "why": "The deal delivers a substantial pay increase and averts a strike that could have disrupted aircraft certification and deliveries. Support was not overwhelming—53% in the technical unit—and the union says deeper trust and engineering-culture problems remain.",
+          "href": "https://www.reuters.com/business/world-at-work/boeing-white-collar-workers-approve-latest-contract-offer-averting-strike-fears-2026-10-01/",
+          "source": "Reuters · 1 Oct 2026"
+        }
+      ]
+    },
+    {
       "editionDate": "2026-10-02",
       "readyForSend": true,
       "label": "DAILY EDITION",
